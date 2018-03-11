@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Descubriendo Medellin!</title>
+    <link rel="stylesheet" href="../estilos/header.css" />
+    <link rel="stylesheet" href="../estilos/cine.css" />
+
+
+    <script language="JavaScript">
+        function compraboleto () {
+        alert ("Su tiquete esta pago para el dia 15 de febrero del 2017 a las 6 pm. Gracias por su compra!");
+        }
+
+        function megusta () {
+        alert ("te gusto esta publicacion!!!");
+        }
+
+        function nogusta () {
+        alert ("No te gusto esta publicacion");
+        }
+
+        function enviado () {
+        alert ("Tu opinion ha sido enviada correctamente");
+        }
+
+        function puertan () {
+        alert ("selecciono su cinema del puerta del norte");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="img-h">
+            <img src="../imagenes/logo.png" alt="Logo" />
+        </div>
+
+        <div id="header">
+            <h1>DESCUBRIENDO MEDELLIN</h1>
+        </div>
+
+        <div id="log">
+            <a href="registrarse.html">
+                <img src="../imagenes/registrarse.ico" alt="Registrarse" />
+                <p>Registrarse</p>
+            </a>
+            <a href="ingresar.html">
+                <img src="../imagenes/ingresar.ico" alt="Ingresar" />
+                <p>Ingresar</p>
+            </a>
+            <a href="salir.html">
+                <img src="../imagenes/salir.ico" alt="Salir" />
+                <p>Salir</p>
+            </a>
+        </div>
+
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li><a href="conciertos.html"><b>Conciertos</b></a></li>
+            <li><a href="arte.html"><b>Arte</b></a></li>
+            <li><a href="gourmet.html"><b>Gourmet</b></a></li>
+            <li><a href="cine.html"><b>Cine</b></a></li>
+            <li><a href="festivales.html"><b>Festivales</b></a></li>
+            <li><a href="regionales.html"><b>Regionales</b></a></li>
+            <li><a href="ranking_recomendados.html"><b>Ranking Recomendados</b></a></li>
+            <li><a href="acerca_nosotros.html"><b>Acerca De Nosotros</b></a></li>
+        </ul>
+    </nav>
+
+    <section id="left">
+
+        <div>
+            <h2> El Aro 3  </h2>
+        </div>
+
+        <section id="evento">
+            <!-- imagen y video de ana gabriel  -->
+            <div>
+                <img src="../imagenes/cine1.png" alt="concierto ana gabriel">
+            </div>
+
+            <div>
+                <iframe src="https://www.youtube.com/embed/kg4cjZgzQ2I" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ubi">
+            
+            <h2> Sinopsis </h2>
+
+        <section id="t-r">
+          
+            <article id="article">
+                <div> 
+                    <p> Un nuevo capítulo en la gustada franquicia de EL ARO. Una joven mujer se preocupa por su novio cuando él decide explorar una oscura subcultura cuyo centro de atención es una misteriosa cinta de video que, aparentemente, mata al observador siete días después de que éste la ha visto. La joven se sacrifica para salvar a su novio y al mismo tiempo hace un terrible descubrimiento: hay una "película dentro de la película" que nadie ha visto antes... </p>
+                </div>
+             </article>
+        </section> 
+
+            <div class="redes">
+
+                    <img src="../imagenes/like.png" alt="Like" width="32" height="32" />
+
+                    <img src="../imagenes/dislike.png" alt="DisLike" width="32" height="32" />
+
+                    <a href="https://www.facebook.com/" target="_blank">
+
+                        <img src="../imagenes/facebook.png" alt="Facebook" width="32" height="32" />
+
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank">
+
+                        <img src="../imagenes/twitter.png" alt="Twitter" width="32" height="32" />
+
+                    </a>
+
+                    <img src="../imagenes/compartir.png" alt="Compartir" width="32" height="32" />
+
+         </div>
+            
+            <div style="float: right;">
+                <ul class="redes">
+                    <li>
+                        <a>
+                            Ranking: <img src="../imagenes/estrellas.png" alt="estrellas" width="100" height="25" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </section>
+
+    <section id="right">
+        <section>
+
+             <div>
+              <table id="t-info" >
+                <tr>
+                  <td> INFORMACION DEL EVENTO </td>
+                </tr>
+                <tr>
+                  <td> Horario </td>
+                  <td> Puerta del norte <input type="checkbox" value="puerta_norte" onClick="puertan()" ></td>
+                  <td> Monterrey <input type="checkbox"></td>
+                  <td> Florida <input type="checkbox"></td>
+                </tr>
+                <tr>
+                  <td> 9:15 pm </td><td> 9 pm </td><td><input type="button" value ="Reserver"></td>
+                </tr>
+                <tr>
+                  <td> 10:30 pm</td><td> 10 pm </td><td><input type="button" value ="Reservar"></td>
+                </tr>
+                <tr>
+                  <td> 9:00pm </td><td> 10 pm </td><td><input type="button" value ="Reservar"></td>
+                </tr>
+
+              </table>
+            </div>
+
+
+        </section>
+
+        <section id="seccion">
+            <!-- Comentarios  -->
+            <h2>Comentarios</h2>
+            
+            <div>
+            <ul id="comentarios">
+                <li class="comentarios">
+                  <div class="user">
+                    <img src="../imagenes/personaje3.png" alt="personaje3"\>
+                    <p>USER 777</p>
+                  </div>
+
+                  <div class="parrafo">
+                    <p>
+                    horrible¡¡ no vale la pena...
+                    </p>
+                    <img src="../imagenes/like.png" alt="Like" value="like" onClick="megusta()" />
+                    <img src="../imagenes/dislike.png" alt="DisLike" value="dislike" onClick="nogusta()"/>
+                  </div>
+                 </li>
+
+                <li class="comentarios">
+                  <div class="user">
+                   <img src="../imagenes/personaje4.png" alt="personaje4"\>
+                   <p>USER514</p>
+                 </div>
+
+                  <div class="parrafo">
+                    <p>
+                    Es horrible perdida de tiempo y dinero que fea película...
+                    </p>
+                    <img src="../imagenes/like.png" alt="Like" value="like" onClick="megusta()"/>
+                    <img src="../imagenes/dislike.png" alt="DisLike" value="dislike" onClick="nogusta()"/>
+                  </div>
+                </li>
+
+                <li class="comentarios">
+                  <div class="user">
+                    <img src="../imagenes/personaje5.png" alt="personaje5"\>
+                    <p>GOKU 02685</p>
+                  </div>
+
+                  <div class="parrafo">
+                    <input type="text" placeholder =  "ingresa tu comentario">
+                    <input type="button" value ="Enviar"
+                    value="enviar" onClick="enviado()">
+                  </div>
+                </li>
+            </ul>
+          </div>
+
+        </section>
+    </section>
+</body>
+
+</html>

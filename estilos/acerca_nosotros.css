@@ -1,0 +1,13 @@
+.div1 {
+    border: 1px solid black;
+    width: 1250px;
+    height: 500px;
+    padding: 8px 8px 8px 8px;
+}
+
+.imagen {
+    padding: 5px 5px 5px 5px;
+    width: 480px;
+    height: 250px;
+    float: right;
+}

@@ -1,0 +1,97 @@
+.slide {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    width: 720px;
+    text-align: center;
+}
+
+.video1 {
+    padding: 5px 5px 5px 5px;
+    margin-top: 6px;
+}
+
+.infoevento_div1 {
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 520px;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionderecha {
+    width: 510px;
+    float: left;
+}
+
+.social {
+    margin-top: 7px;
+    width: 180px;
+    height: 53px;
+    float: left;
+}
+
+.mapa {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+}
+
+.infoevento_div2 {
+    display: inline-block;
+    width: 290px;
+    vertical-align: top;
+}
+
+.infoevento_div4 {
+    margin-top: 70px;
+}
+
+.infoevento_div5 {
+    display: inline-block;
+}
+
+.infoevento_div6 {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.infoevento_div7 {
+    margin-top: 30px;
+}
+
+
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}

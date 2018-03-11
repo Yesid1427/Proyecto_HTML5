@@ -1,0 +1,71 @@
+.search {
+
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+}
+
+.slide {
+    padding: 5px 5px 5px 5px;
+    width: 660px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.video1 {
+    padding: 5px 5px 5px 5px;
+    margin-top: 2px;
+}
+
+.infoevento_div1 {
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 500px;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionizquierda {
+    width: 550px;
+    float: right;
+}
+
+.social {
+
+    margin-top: 7px;
+    width: 180px;
+    height: 53px;
+}
+
+.mapa {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+}
+
+.infoevento_div2 {
+    display: inline-block;
+    width: 290px;
+    vertical-align: top;
+}
+
+.infoevento_div4 {
+    margin-top: 70px;
+}
+
+.infoevento_div5 {
+    display: inline-block;
+}
+
+.infoevento_div6 {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.infoevento_div7 {
+    margin-top: 30px;
+}
+
+
+
+

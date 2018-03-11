@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Página Realizada Por: Yesid Moncada Tobón-->
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wwww.descubriendomedellin.com</title>
+    <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/header.css" />
+    <link rel="stylesheet" href="../estilos/registrarse.css" />
+    <script src="../style/js/jquery-3.1.1.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('#logo').click(function() {
+                window.location.href = "../index.html";
+            });
+        });
+    </script>
+
+    <script>
+        function validar() {
+        var x = document.getElementById('#inputcorreo').pattern;
+        }   
+    </script>
+    
+</head>
+
+<!-- Inicio Body -->
+
+<body>
+
+    <!-- Inicio Header -->
+    <header>
+
+        <!-- Inicio Logo Banner -->
+        <div id="img-h">
+            <img src="../imagenes/logo.png" alt="Logo" id="logo" />
+        </div>
+        <!-- Fin Logo Banner -->
+
+        <!-- Inicio Titulo Banner -->
+        <div id="header">
+            <h1>DESCUBRIENDO MEDELLIN</h1>
+        </div>
+        <!-- Fin Titulo Banner -->
+
+        <!-- Inicio Enlaces Registro Banner -->
+        <div id="log">
+
+            <a href="registrarse.html">
+                <img src="../imagenes/registrarse.ico" alt="Registrarse" />
+                <p>Registrarse</p>
+            </a>
+
+            <a href="ingresar.html">
+                <img src="../imagenes/ingresar.ico" alt="Ingresar" />
+                <p>Ingresar</p>
+            </a>
+
+            <a href="salir.html">
+                <img src="../imagenes/salir.ico" alt="Salir" />
+                <p>Salir</p>
+
+            </a>
+
+        </div>
+        <!-- Fin Enlaces Registro Banner -->
+
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Barra menú -->
+    <nav id="menu">
+
+        <ul>
+
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li><a href="conciertos.html"><b>Conciertos</b></a></li>
+            <li><a href="arte.html"><b>Arte</b></a></li>
+            <li><a href="gourmet.html"><b>Gourmet</b></a></li>
+            <li><a href="cine.html"><b>Cine</b></a></li>
+            <li><a href="festivales.html"><b>Festivales</b></a></li>
+            <li><a href="regionales.html"><b>Regionales</b></a></li>
+            <li><a href="ranking_recomendados.html"><b>Ranking Recomendados</b></a></li>
+            <li><a href="acerca_nosotros.html"><b>Acerca De Nosotros</b></a></li>
+
+        </ul>
+
+    </nav>
+    <!-- Fin Barra menú -->
+
+    <!-- Inicio Formulario -->
+    <main>
+
+        <fieldset class="fieldset">
+            <legend style="padding: 10px 0px 0px 0px;">
+                <h3>Registro</h3>
+            </legend>
+            <div style="padding: 0px 0px 20px 0px;" class="divimp">
+                <h2>¡Únase De Forma Gratuita!</h2>
+            </div>
+
+            <!-- Inicio Container-Fluid -->
+            <div class="container-fluid">
+                <form class="form-horizontal" role="form">
+                    <div class="row">
+
+                        <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="txtnombre" class="col-md-4 control-label">Nombre:</label>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="txtnombre" placeholder="Nombre" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="txtapellido" class="col-md-4 control-label">Apellido:</label>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="txtapellido" placeholder="Apellido" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="inputcorreo" class="col-md-4 control-label">Correo:</label>
+                                <div class="col-md-8">
+                                    <input type="email" class="form-control" id="inputcorreo" placeholder="Correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="txtcelular" class="col-md-4 control-label">Celular:</label>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="txtcelular" placeholder="Celular"  maxlength="10" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="inputclave" class="col-md-4 control-label">Contraseña:</label>
+                                <div class="col-md-8">
+                                    <input type="password" class="form-control" id="inputclave" placeholder="Contraseña" minlength="6" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="rbnmasculino" class="col-md-4 control-label">Sexo:</label>
+                                <div class="col-md-8">
+                                    <input id="rbnmasculino" type="radio" name="sexo" value="Masculino" required />
+                                    <label style="width: 20px;" for="rbnmasculino">M</label>
+
+                                    <input id="rbnfemenino" type="radio" name="sexo" value="Femenino" required />
+                                    <label style="width: 20px;" for="rbnfemenino">F</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+
+
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="txtcodseguridad" class="col-md-4 control-label">Código De Seguridad:</label>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="txtcodseguridad" placeholder="Decemb3R" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="txtcondiciones" class="col-md-4 control-label">Condiciones De Uso:</label>
+                                <div class="col-md-8">
+                                    <input type="checkbox" id="txtcondiciones" placeholder="Condiciones De Uso" required> Acepto Las Condiciones.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <label for="btnregistrate" class="col-md-4 control-label"></label>
+                                <div class="col-md-8">
+                                    <button type="submit" class="btn btn-primary" id="btnregistrate" onclick="validar()">Registrate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                                            
+
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- Fin Container-Fluid -->
+
+        </fieldset>
+        <!-- Fin Recuadro -->
+
+    </main>
+    <!-- Fin Cuadro Principal -->
+    <!-- Fin Formulario -->
+
+</body>
+<!-- Fin Body -->
+
+</html>

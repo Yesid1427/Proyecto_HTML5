@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Descubriendo Medellin!</title>
+    <link rel="stylesheet" href="../estilos/header.css" />
+    <link rel="stylesheet" href="../estilos/conciertos.css" />
+    
+    <script src="../style/js/jquery-3.1.1.min.js"></script>
+    <script src="../style/alertifyjs/alertify.min.js"></script>
+
+    <script language="JavaScript">
+        function compraboleto () {
+        alert ("Su tiquete esta pago para el dia 15 de febrero del 2017 a las 6 pm. Gracias por su compra!");
+        }
+
+        function megusta () {
+        alert ("te gusto esta publicacion!!!");
+        }
+
+        function nogusta () {
+        alert ("No te gusto esta publicacion");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="img-h">
+            <img src="../imagenes/logo.png" alt="Logo" />
+        </div>
+
+        <div id="header">
+            <h1>DESCUBRIENDO MEDELLIN</h1>
+        </div>
+
+        <div id="log">
+            <a href="registrarse.html">
+                <img src="../imagenes/registrarse.ico" alt="Registrarse" />
+                <p>Registrarse</p>
+            </a>
+            <a href="ingresar.html">
+                <img src="../imagenes/ingresar.ico" alt="Ingresar" />
+                <p>Ingresar</p>
+            </a>
+            <a href="salir.html">
+                <img src="../imagenes/salir.ico" alt="Salir" />
+                <p>Salir</p>
+            </a>
+        </div>
+
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li><a href="conciertos.html"><b>Conciertos</b></a></li>
+            <li><a href="arte.html"><b>Arte</b></a></li>
+            <li><a href="gourmet.html"><b>Gourmet</b></a></li>
+            <li><a href="cine.html"><b>Cine</b></a></li>
+            <li><a href="festivales.html"><b>Festivales</b></a></li>
+            <li><a href="regionales.html"><b>Regionales</b></a></li>
+            <li><a href="ranking_recomendados.html"><b>Ranking Recomendados</b></a></li>
+            <li><a href="acerca_nosotros.html"><b>Acerca De Nosotros</b></a></li>
+        </ul>
+    </nav>
+
+    <section id="left">
+
+        <div>
+            <h2> Ana Gabriel </h2>
+        </div>
+
+        <section id="evento">
+            <!-- imagen y video de ana gabriel  -->
+            <div>
+                <img src="../imagenes/concierto1.png" alt="concierto ana gabriel">
+            </div>
+
+            <div>
+                <iframe src="https://www.youtube.com/embed/UClXsb6U0jw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ubi">
+            <!-- ubicacion y precios  -->
+
+            <h2> Ubicacion y precios </h2>
+
+            <section id="t-r">
+
+                <table id="t-precios">
+                    <tr>
+                        <td> VIP </td>
+                        <td> $ 2OO.000 </td>
+                        <tr><br>
+                            <td> PREFERENCIA </td>
+                            <td> $ 125.000 </td>
+                        </tr>
+                        <tr>
+                            <td> GENERAL </td>
+                            <td> $ 65.000 </td>
+                        </tr>
+                    </tr>
+                </table>
+
+            </section>
+
+            <article id="article">
+                <div>
+                    <p>Prepárate Medellín para recibir este próximo 4 de Marzo en la Plaza de Toros la Macarena la Reina de la balada y la ranchera Ana Gabriel y junto a ella el rey del despecho Darío Gómez , el tenor del vallenato Jean Carlos Centeno y
+                        la voz del sentimiento Hebert Vargas. </p>
+                </div>
+            </article>
+
+            <div>
+                <ul style="float: left;" class="redes">
+                    <li>
+                        <a>
+                            <img src="../imagenes/like.png" value="like" onClick="megusta()"/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="../imagenes/dislike.png" value="dislike" onClick="nogusta()"/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <img src="../imagenes/facebook.png" alt="facebook" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/">
+                            <img src="../imagenes/twitter.png" alt="twitter" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="../imagenes/compartir.png" alt="compartir" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="float: right;">
+                <ul class="redes">
+                    <li>
+                        <a>
+                            Ranking: <img src="../imagenes/estrellas.png" alt="estrellas" class="ranking" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </section>
+
+    <section id="right">
+        <section>
+            <!-- Informacion del evento  -->
+            <div>
+                <table id="t-info">
+                    <tr>
+                        <td> INFORMACION DEL EVENTO </td>
+                    </tr>
+                    <tr>
+                        <td> Fecha </td>
+                        <td> Hora </td>
+                        <td>Compra</td>
+                    </tr>
+                    <tr>
+                        <td> 15 febrero 2017 </td>
+                        <td> 6 pm </td>
+                        <td><input type=button value="Comprar" onClick="compraboleto()"></td>
+                    </tr>
+                    <tr>
+                        <td> 16 febrero 2017 </td>
+                        <td> 8 pm </td>
+                        <td><input type="button" value="Comprar"></td>
+                    </tr>
+                    <tr>
+                        <td> 17 febrero 2017 </td>
+                        <td> 7 pm </td>
+                        <td><input type="button" value="Comprar"></td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <section id="seccion">
+            <!-- Comentarios  -->
+            <h2>Comentarios</h2>
+            <div>
+                <ul id="comentarios">
+                    <li class="comentarios">
+                        <div class="user">
+                            <img src="../imagenes/personaje.png" alt="personaje" />
+                            <p>USER 777</p>
+                        </div>
+
+                        <div class="parrafo">
+                            <p>
+                                Buen concierto, lo estaba esperando...
+                            </p>
+                            <img src="../imagenes/like.png" alt="Like" />
+                            <img src="../imagenes/dislike.png" alt="DisLike" />
+                        </div>
+                    </li>
+
+                    <li class="comentarios">
+                        <div class="user">
+                            <img src="../imagenes/personaje1.png" alt="personaje1" />
+                            <p>FERNANDO</p>
+                        </div>
+
+                        <div class="parrafo">
+                            <p>
+                                Ana Gabriel!!!!!!... Lo mejor!!!!!!!
+                            </p>
+                            <img src="../imagenes/like.png" alt="Like" />
+                            <img src="../imagenes/dislike.png" alt="DisLike" />
+                        </div>
+                    </li>
+
+                    <li class="comentarios">
+                        <div class="user">
+                            <img src="../imagenes/personaje2.png" alt="personaje2" />
+                            <p>ROOT</p>
+                        </div>
+
+                        <div class="parrafo">
+                            <input type="text" placeholder="ingresa tu comentario">
+                            <input type="button" value="Enviar">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

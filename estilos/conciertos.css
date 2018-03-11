@@ -1,0 +1,102 @@
+#left {
+    width: 50%;
+    float: left;
+}
+
+#right {
+    width: 50%;
+    float: right;
+}
+
+#evento {
+    display: inline-flex;
+}
+
+#evento>div img {
+    width: 250px;
+    height: 200px;
+    padding: 13px;
+}
+
+#evento>div iframe {
+    padding: 13px;
+    width: 340px;
+    height: 200px;
+}
+
+#t-r {
+    width: 55%;
+    float: left;
+    display: block;
+}
+
+#t-precios {
+    height: 150px;
+    width: 100%;
+}
+
+.redes {
+    list-style: none;
+    display: inline-flex;
+}
+
+.redes>li {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.redes>li img {
+    width: 30px;
+    height: 30px;
+}
+
+.redes>li .ranking {
+    width: 115px;
+    height: 23px;
+}
+
+#article {
+    float: left;
+    width: 40%;
+    font-size: 110%;
+}
+
+#t-info {
+    height: 250px;
+    width: 100%;
+}
+
+#comentarios {
+    list-style: none;
+    display: block;
+}
+
+.comentarios {
+    display: inline-flex;
+    width: 100%;
+}
+
+.user {
+    padding: 12px;
+    width: 150%;
+    text-align: center;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+}
+
+.parrafo {
+    padding: 12px;
+    width: 500%;
+}
+
+.parrafo img {
+    width: 25px;
+    height: 25px;
+}
+
+.parrafo input {
+    display: inline-block;
+}

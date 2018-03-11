@@ -1,0 +1,103 @@
+.search {
+
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+}
+
+.slide {
+    padding: 5px 5px 5px 5px;
+    width: 660px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.video1 {
+    padding: 5px 5px 5px 5px;
+    margin-top: 2px;
+}
+
+.infoevento_div1 {
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 500px;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionizquierda {
+    width: 550px;
+    float: right;
+}
+
+.social {
+
+    margin-top: 7px;
+    width: 180px;
+    height: 53px;
+}
+
+.mapa {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+}
+
+.infoevento_div2 {
+    display: inline-block;
+    width: 290px;
+    vertical-align: top;
+}
+
+.infoevento_div4 {
+    margin-top: 70px;
+}
+
+.infoevento_div5 {
+    display: inline-block;
+}
+
+.infoevento_div6 {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.infoevento_div7 {
+    margin-top: 30px;
+}
+
+.ventana {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+.masredes{
+    width: 320px;
+    height: 160px;
+    padding: 25px;
+    background-color:#2E2E2E;
+    color: #FBF8EF;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    margin-left: -150px;
+    margin-top: -150px;
+    font-style: 
+}
+
+.cerrar{
+    
+    font-weight: 500;
+    text-align: right;
+
+}
+.cerrar input {
+    color: #2E2E2E;
+    background: #D8D8D8;
+}

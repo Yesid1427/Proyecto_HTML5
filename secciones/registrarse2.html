@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Página Realizada Por: Yesid Moncada Tobón-->
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wwww.descubriendomedellin.com</title>
+    <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/header.css" />
+    <link rel="stylesheet" href="../estilos/registrarse.css" />
+    <script src="../style/js/jquery-3.1.1.min.js"></script>
+    <script src="../style/js/validar_formulario.js"></script>
+    <script src="../style/js/redireccion_index.js"></script>
+
+</head>
+
+<!-- Inicio Body -->
+
+<body>
+
+    <!-- Inicio Header -->
+    <header>
+
+        <!-- Inicio Logo Banner -->
+        <div id="img-h" onclick="ready()">
+            <img src="../imagenes/logo.png" alt="Logo" id="logo" />
+        </div>
+        <!-- Fin Logo Banner -->
+
+        <!-- Inicio Titulo Banner -->
+        <div id="header">
+            <h1>DESCUBRIENDO MEDELLIN</h1>
+        </div>
+        <!-- Fin Titulo Banner -->
+
+        <!-- Inicio Enlaces Registro Banner -->
+        <div id="log">
+
+            <a href="registrarse.html">
+                <img src="../imagenes/registrarse.ico" alt="Registrarse" />
+                <p>Registrarse</p>
+            </a>
+
+            <a href="ingresar.html">
+                <img src="../imagenes/ingresar.ico" alt="Ingresar" />
+                <p>Ingresar</p>
+            </a>
+
+            <a href="salir.html">
+                <img src="../imagenes/salir.ico" alt="Salir" />
+                <p>Salir</p>
+
+            </a>
+
+        </div>
+        <!-- Fin Enlaces Registro Banner -->
+
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Barra menú -->
+    <nav id="menu">
+
+        <ul>
+
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li><a href="conciertos.html"><b>Conciertos</b></a></li>
+            <li><a href="arte.html"><b>Arte</b></a></li>
+            <li><a href="gourmet.html"><b>Gourmet</b></a></li>
+            <li><a href="cine.html"><b>Cine</b></a></li>
+            <li><a href="festivales.html"><b>Festivales</b></a></li>
+            <li><a href="regionales.html"><b>Regionales</b></a></li>
+            <li><a href="ranking_recomendados.html"><b>Ranking Recomendados</b></a></li>
+            <li><a href="acerca_nosotros.html"><b>Acerca De Nosotros</b></a></li>
+
+        </ul>
+
+    </nav>
+    <!-- Fin Barra menú -->
+
+    <!-- Inicio Cuadro Principal -->
+    <main>
+
+        <div class="divimp">
+
+            <h2>¡Únase De Forma Gratuita!</h2><br>
+
+        </div>
+
+        <form action="registrar.php" method="POST" class="form-register" onsubmit="return validar();">
+
+            <div class="divimp">
+
+                <label for="txtnombre">Nombre:</label>
+                <input id="txtnombre" type="text" name="nombre" value="" placeholder="Nombre" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcontrasena1">Contraseña:</label>
+                <input id="txtcontrasena1" type="password" name="contrasena1" value="" placeholder="Contraseña" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtapellido">Apellido:</label>
+                <input id="txtapellido" type="text" name="apellido" value="" placeholder="Apellido" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcontrasena2">Confirmar Contraseña:</label>
+                <input id="txtcontrasena2" type="password" name="contrasena2" value="" placeholder="Confirmar Contraseña" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="rbnmasculino">Sexo:</label>
+
+                <input id="rbnmasculino" type="radio" name="sexo" value="Masculino">
+                <label for="rbnmasculino" class="lblshort">M</label>
+
+                <input id="rbnfemenino" type="radio" name="sexo" value="Femenino">
+                <label for="rbnfemenino" class="lblshort">F</label>
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcodseguridad1">Código De Seguridad:</label>
+                <input id="txtcodseguridad1" type="text" name="codseguridad1" value="ASDFD" placeholder="Código De Seguridad" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcorreo1">Correo Electrónico:</label>
+                <input id="txtcorreo1" type="email" name="correo1" value="" placeholder="Correo" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcodseguridad2">Confirmar Código De Seguridad:</label>
+                <input id="txtcodseguridad2" type="text" name="codseguridad2" value="ASDFD" placeholder="Confirmar Código De Seguridad" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcorreo2">Confirmar Correo Electrónico:</label>
+                <input id="txtcorreo2" type="email" name="correo2" value="" placeholder="Confirmar Correo" />
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcondiciones">Condiciones De Uso:</label>
+                <input id="txtcondiciones" type="checkbox" name="condiciones" value=""> Acepto Las Condiciones.
+
+            </div>
+
+            <div class="divimp">
+
+                <label for="txtcelular">Celular:</label>
+                <input id="txtcelular" type="tel" name="celular" value="" placeholder="Celular" />
+
+            </div>
+
+            <div class="divimp">
+                <input id="enviar" type="submit" class="btn btn-primary" onclick="validar()" />
+            </div>
+
+        </form>
+
+    </main>
+    <!-- Fin Cuadro Principal -->
+
+</body>
+<!-- Fin Body -->
+
+</html>

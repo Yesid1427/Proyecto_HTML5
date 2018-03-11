@@ -1,0 +1,93 @@
+
+#left {
+    width: 50%;
+    float: left;
+}
+
+#right {
+    width: 50%;
+    float: right;
+}
+
+#evento {
+    display: inline-flex;
+}
+
+#evento>div img {
+    width: 250px;
+    height: 200px;
+    padding: 13px;
+}
+
+#evento>div iframe {
+    padding: 13px;
+    width: 340px;
+    height: 200px;
+}
+
+#t-r {
+    width: 630px;
+    height: 200px;
+    float: left;
+    padding: 8px 8px 8px 8px;
+}
+
+#t-precios {
+    height: 150px;
+    width: 100%;
+}
+
+.redes {
+
+    margin-top: 7px;
+    width: 180px;
+    height: 53px;
+}
+
+
+#article {
+    float: left;
+    width: 100%;
+    font-size: 110%;
+}
+
+#t-info {
+    height: 250px;
+    width: 150%;
+}
+
+#comentarios {
+    list-style: none;
+    display: block;
+    
+}
+
+.comentarios {
+    display: inline-flex;
+    width: 100%;
+}
+
+.user {
+    padding: 12px;
+    width: 150%;
+    text-align: center;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+}
+
+.parrafo {
+    padding: 12px;
+    width: 500%;
+}
+
+.parrafo img {
+    width: 25px;
+    height: 25px;
+}
+
+.parrafo input {
+    display: inline-block;
+}

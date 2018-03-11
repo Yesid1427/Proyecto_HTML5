@@ -1,0 +1,26 @@
+.fieldset {
+    width: 1200px;
+    height: 500px;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    margin: 10px auto;
+}
+
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+.divimp {
+    width: 400px;
+    display: inline-block;
+    margin: 4px 60px;
+}
+
+.lblshort {
+    width: 70px;
+}
+
+.registrate {
+    padding: 5px 20px 5px 20px;
+}
